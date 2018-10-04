@@ -17,7 +17,7 @@ namespace MyGame
         // Ширина и высота игрового поля
         public static int Width { get; set; }
         public static int Height { get; set; }
-        public static Image newImage = Image.FromFile("Meteor.png");
+        public static Image newImage = Image.FromFile(@"Images\Meteor.png");
         public static BaseObject[] _objs;
         public static Star[] _star;
         public static Sputnic s;
